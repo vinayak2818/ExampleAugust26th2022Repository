@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestNG Cases for Parameter">
+<test name="User1">
+<classes>
+<class name="com.sgtesting.ParameteredUser.Userdemo"></class>
+<parameter name="username" value="WelcomeUser1"></parameter>
+</classes>
+</test>
+</suite>

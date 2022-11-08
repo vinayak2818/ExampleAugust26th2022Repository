@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Method level Automation">
+<test name="Method level Test">
+<classes>
+<class name="com.sgtesting.Users.Users">
+<method>
+<include name="createUser"></include>
+<include name="setUp"></include>
+</method>
+</class>
+<class name="com.sgtesting.product.Product">
+<method >
+<include name="Setup">
+</include>
+</method>
+</class>
+</classes>
+</test>
+</suite>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Package Level">
+<test name="User and Products">
+<packages>
+<package name="com.sgtesting.Users"></package>
+<package name="com.sgtesting.product"></package>
+</packages>
+</test>
+</suite>

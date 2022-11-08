@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Users and Products">
+<test name="Test cases">
+<classes>
+<class name="com.sgtesting.Users.Users"></class>
+<class name="com.sgtesting.product.Product"></class>
+</classes>
+</test>
+</suite>
