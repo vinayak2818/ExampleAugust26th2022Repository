@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Soft Assertions]">
+  <test thread-count="5" name="Equal or NotEqual Assertions(failed)">
+    <classes>
+      <class name="com.sgtesting.SoftAssertions.AssertEqualsDemo">
+        <methods>
+          <include name="assertNotEqualsDemo"/>
+        </methods>
+      </class> <!-- com.sgtesting.SoftAssertions.AssertEqualsDemo -->
+    </classes>
+  </test> <!-- Equal or NotEqual Assertions(failed) -->
+</suite> <!-- Failed suite [Soft Assertions] -->

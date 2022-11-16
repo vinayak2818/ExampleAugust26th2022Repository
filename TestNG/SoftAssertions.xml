@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Soft Assertions">
+<test name="Equal or NotEqual Assertions">
+<classes>
+<class name="com.sgtesting.SoftAssertions.AssertEqualsDemo"></class>
+</classes>
+</test>
+<test name="Null or NotNull Assertions">
+<classes>
+<class name="com.sgtesting.SoftAssertions.AssertNullDemo"></class>
+</classes>
+</test>
+<test name="Same or NotSame Assertions">
+<classes>
+<class name="com.sgtesting.SoftAssertions.AssertSameDemo"></class>
+</classes>
+</test>
+<test name="True or False Assertions">
+<classes>
+<class name="com.sgtesting.SoftAssertions.AssertTrueFalseDemo"></class>
+</classes>
+</test>
+</suite>

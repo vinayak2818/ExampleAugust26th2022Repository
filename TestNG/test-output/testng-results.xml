@@ -2,39 +2,60 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-08T22:03:04 IST" name="TestNG Cases for Parameter" finished-at="2022-11-08T22:03:04 IST" duration-ms="68">
+  <suite started-at="2022-11-09T18:53:58 IST" name="Default suite" finished-at="2022-11-09T18:53:58 IST" duration-ms="87">
     <groups>
     </groups>
-    <test started-at="2022-11-08T22:03:04 IST" name="User1" finished-at="2022-11-08T22:03:04 IST" duration-ms="68">
-      <class name="com.sgtesting.ParameteredUser.Userdemo">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sgtesting.ParameteredUser.Userdemo@67080771]" started-at="2022-11-08T22:03:04 IST" name="setUp" finished-at="2022-11-08T22:03:04 IST" duration-ms="8" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="createUser(java.lang.String)[pri:0, instance:com.sgtesting.ParameteredUser.Userdemo@67080771]" started-at="2022-11-08T22:03:04 IST" name="createUser" finished-at="2022-11-08T22:03:04 IST" duration-ms="7" status="PASS">
+    <test started-at="2022-11-09T18:53:58 IST" name="Default test" finished-at="2022-11-09T18:53:58 IST" duration-ms="87">
+      <class name="com.sgtesting.DataProvider.DataProviderDemo">
+        <test-method signature="displayTestData(java.lang.String,java.lang.String)[pri:0, instance:com.sgtesting.DataProvider.DataProviderDemo@29647f75]" started-at="2022-11-09T18:53:58 IST" name="displayTestData" data-provider="testdata" finished-at="2022-11-09T18:53:58 IST" duration-ms="8" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[WelcomeUser1]]>
+                <![CDATA[admin1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager1]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- createUser -->
-        <test-method signature="deleteUser()[pri:0, instance:com.sgtesting.ParameteredUser.Userdemo@67080771]" started-at="2022-11-08T22:03:04 IST" name="deleteUser" finished-at="2022-11-08T22:03:04 IST" duration-ms="3" status="PASS">
+        </test-method> <!-- displayTestData -->
+        <test-method signature="displayTestData(java.lang.String,java.lang.String)[pri:0, instance:com.sgtesting.DataProvider.DataProviderDemo@29647f75]" started-at="2022-11-09T18:53:58 IST" name="displayTestData" data-provider="testdata" finished-at="2022-11-09T18:53:58 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager2]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- deleteUser -->
-        <test-method signature="modifyUser()[pri:0, instance:com.sgtesting.ParameteredUser.Userdemo@67080771]" started-at="2022-11-08T22:03:04 IST" name="modifyUser" finished-at="2022-11-08T22:03:04 IST" duration-ms="2" status="PASS">
+        </test-method> <!-- displayTestData -->
+        <test-method signature="displayTestData(java.lang.String,java.lang.String)[pri:0, instance:com.sgtesting.DataProvider.DataProviderDemo@29647f75]" started-at="2022-11-09T18:53:58 IST" name="displayTestData" data-provider="testdata" finished-at="2022-11-09T18:53:58 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manager3]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- modifyUser -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sgtesting.ParameteredUser.Userdemo@67080771]" started-at="2022-11-08T22:03:04 IST" name="tearDown" finished-at="2022-11-08T22:03:04 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.sgtesting.ParameteredUser.Userdemo -->
-    </test> <!-- User1 -->
-  </suite> <!-- TestNG Cases for Parameter -->
+        </test-method> <!-- displayTestData -->
+      </class> <!-- com.sgtesting.DataProvider.DataProviderDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
