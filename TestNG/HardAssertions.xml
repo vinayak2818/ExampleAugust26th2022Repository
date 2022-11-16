@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Hard Assertions">
+<test name="Equal and NotEqual Assertions">
+<classes>
+<class name="com.sgtesting.hardassertion.AssertEqualsDemo"></class>
+</classes>
+</test>
+<test name="Null and NotNull Assertions">
+<classes>
+<class name="com.sgtesting.hardassertion.AssertNullDemo"></class>
+</classes>
+</test>
+<test name="Same and NotSame Assertions">
+<classes>
+<class name="com.sgtesting.hardassertion.AssertSameDemo"></class>
+</classes>
+</test>
+<test name="True and False Assertions">
+<classes>
+<class name="com.sgtesting.hardassertion.AssertTrueFalseDemo"></class>
+</classes>
+</test>
+</suite>

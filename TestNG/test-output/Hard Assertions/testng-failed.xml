@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Hard Assertions]">
+  <test thread-count="5" name="Same and NotSame Assertions(failed)">
+    <classes>
+      <class name="com.sgtesting.hardassertion.AssertSameDemo">
+        <methods>
+          <include name="assertSameDemo"/>
+        </methods>
+      </class> <!-- com.sgtesting.hardassertion.AssertSameDemo -->
+    </classes>
+  </test> <!-- Same and NotSame Assertions(failed) -->
+</suite> <!-- Failed suite [Hard Assertions] -->

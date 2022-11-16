@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employees>
+<employee id="12545">
+<firstname>Santosh</firstname>
+<job>Manger</job>
+<city>Bangalore</city>
+<State>Karnataka</State>
+</employee>
+<employee id="253">
+<firstname>Richard</firstname>
+<job>QA</job>
+<city>Mangalore</city>
+<State>Karnataka</State>
+</employee>
+<employee id="2421">
+<firstname>Abdul</firstname>
+<job>Teamlead</job>
+<city>chennai</city>
+<State>Tamilnadu</State>
+</employee>
+</employees>

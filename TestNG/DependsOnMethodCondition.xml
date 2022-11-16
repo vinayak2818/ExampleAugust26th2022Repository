@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Condition">
+<test name="check condition">
+<classes>
+<class name="com.sgtesting.Condition.DependsOnMethodCondition"></class>
+</classes>
+</test>
+<test name="priority">
+<classes>
+<class name="com.sgtesting.Condition.PriorityConditiondemo"></class>
+</classes>
+</test>
+<test name="Enable Condition">
+<classes>
+<class name="com.sgtesting.Condition.UserEnable"></class>
+</classes>
+</test>
+</suite>
